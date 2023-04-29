@@ -1,7 +1,147 @@
-\documentclass{article}
-\title{Résolution d'équations aux dérivées partielles par processus gaussien}
-\author{Nils Baulier}
-\date{}
+%Classe du document, A4, police taille 12
+\documentclass[a4paper,12pt]{article}
+
+% Dictionnaire français, pour caractères spéciaux, tirets, caractères accentués
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+%Toujours plus d'accents
+\usepackage[T1]{fontenc}
+
+\usepackage{indentfirst}
+%Pour créer des paragraphes random
+\usepackage{lipsum}  
+%bibliographie
+%Le style dépend du projet, voir avec le grand chef
+%A mettre à l'endroit où vous voulez la faire apparaitre
+%Donc dans le code pas ici t'as vu
+%\bibliographystyle{ieeetr}
+%\bibligraphy{nom_du_fichier.bib}
+
+%hauteur entre deux lignes
+\baselineskip 200cm
+%hauteur entre deux paragraphes
+\parskip 2mm
+%longueur d'indentation
+\parindent 2mm
+%(on utilise \indent et \noindent sinon)
+
+%Gérer ses marges
+
+%Facilement
+\usepackage[margin=2cm]{geometry}
+
+%Précisément
+%\usepackage[left=2cm , right=2cm, bottom=2cm, top=2cm, headheight=2cm]{geometry} 
+%header c'est l'en-tête pas la marge supérieure
+
+%Toujours plus précisément
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-5cm}
+%\addtolength{\topmargin}{-0.5in}
+
+%Faires des articles  plusieures colonnes
+\usepackage{multicol}
+%Separation des colonnes
+\setlength{\columnsep}{2cm}
+
+%Avoir des entêtes et pieds de page stylés
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%Pour enlever l'entête avec les sections
+%\fancyhf{}
+
+%Ca se fait sous format \<pos><type>{<contenu>}
+%type c'est "head" ou "foot"
+%pos pour position gauche "l", droite "r" ou centre "c"
+%contenu c'est ce que tu mets dans dedans 
+%marche aussi avec des images mais flemme
+%mettre un trait
+%\renewcommand{\footrulewidth}{1.5pt}
+
+% Liens dans le document
+\usepackage{hyperref}  
+% Légendes dans les environnements "figure" et "float"
+\usepackage{subcaption}
+%La base pour faire des figures juste
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig}
+%Trucs utiles pour les maths
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{ntheorem}
+\newtheorem{definition}{Définition}
+\newtheorem{proposition}{Proposition}
+
+\usepackage{listings}
+
+
 \begin{document}
-\maketitle{}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{0.5cm}
+        {\Large ÉCOLE NATIONALE DES PONTS ET CHAUSSÉES}\\
+        \vspace{1cm}
+        \rule\linewidth{0.05cm}
+        {\huge Résolution d'une équation aux dérivées partielles par processus gaussien\par}
+        \rule\linewidth{0.05cm}
+        \vspace{1cm}
+        {\Large Projet 1A\par}
+        \vspace{0.8cm}
+        {\Large Par}\\
+        \vspace{0.3cm}
+        {\large \textit{Nils Baulier, Raphaël Viard, Salma Kably et Simon Weissberg}}\\
+        \vspace{0.8cm}
+        {\Large Supervisé par}\\
+        \vspace{0.3cm}
+        {\large \textit{Urbain Vaes}}\\
+        \vspace{0.7cm}
+        \includegraphics[scale=0.2]{logo_ponts.jpg}\\
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\section{Introduction}
+
+Historiquement, les processus de régression gaussienne furent introduits par Krige en 1960,
+ cherchant à l’époque à obtenir la distribution d’or dans un milieu, en ne se basant que 
+ sur des échantillons. Aujourd’hui, ils permettent par exemple d’étudier la perméabilité 
+ radioactive d’un sol. L'approche de résolution d'équations aux dérivées partielles par 
+ processus gaussien est une technique d'approximation de la solution par une fonction ayant
+ un caractère aléatoire, permettant par exemple de modéliser l'incertitude sur une donnée du problème. 
+ Avant de se lancer dans une telle résolution, il parait naturel d'abord de simplement essayer 
+ d'approcher une fonction connue par un processus gaussien (c'est la régression gaussienne), 
+ ce qui sera l'objet principal de ce premier rendu. Cette première étape nous orientera pour 
+ ensuite résoudre des équations différentielles linéaires.
+
+\section{Processus gaussien}
+
+\subsection{Définition}
+
+\begin{definition}
+    Un processus stochastique est une famille de variables aléatoires $({X_t})_{t \in T}$ 
+    définies sur le même espace de probabilité $(\Omega,\mathcal{F},\mathcal{P})$ indexée par 
+    $T$ et à valeurs dans $S$. Un processus stochastique peut donc aussi être vu comme une application 
+    $X:\Omega \times T \to S$ tel que 
+    pour tout $t$ dans $T$, $X( . ,t)$ est une variable aléatoire.
+
+    Un processus gaussien est un processus stochastique $({X_t})_{t \in T}$ tel que 
+    $\forall n \in \mathbb{N}, \forall (t_1,t_2,...,t_n) \in T^{n}, (X_{t_1},...,X_{t_n})$
+     est un vecteur gaussien.
+\end{definition}
+
+\begin{proposition}
+    Soit $({X_t})_{t \in T}$ un processus gaussien. Alors il existe $\bar{m}:T \to \mathbb{R}$ et
+     $\bar{k}:T \times T \to \mathbb{R}$ définie positive tel que $\forall n \in \mathbb{N},
+      \forall (t_1,t_2,...,t_n) \in T^{n}, (X_{t_1},...,X_{t_n}) 
+      \sim \mathcal{N}( (\bar{m}(t_1) , ... , \bar{m}(t_n))^\top , K_{t_1,t_2,...,t_n} )$ 
+      où $K_{t_1,t_2,...,t_n}$ est la matrice de coefficients $K_{i,j}=\bar{k}(t_i,t_j)$.
+    
+    Réciproquement, s'il existe un tel m et un tel c, alors $({X_t})_{t \in T}$ est un processus gaussien. On note alors $({X_t})_{t \in T} \sim \mathcal{GP}(\bar{m},\bar{k})$ et on appelle $\bar{m}$ la fonction moyenne et $\bar{k}$ le noyau de covariance du processus gaussien.
+\end{proposition}
+
+\subsection{Modélisation d'une trajectoire d'un processus gaussien}
+
 \end{document}
