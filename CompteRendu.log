@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  28 APR 2023 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  2 MAY 2023 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,62 +457,40 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/ntheorem\ntheorem.sty
-Style `ntheorem', Version 1.33 <2011/08/15>
-Package: ntheorem 2011/08/15 1.33
-(C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\theorem@style=\toks30
-\theorem@@style=\toks31
-\theorembodyfont=\toks32
-\theoremnumbering=\toks33
-\theorempreskipamount=\skip65
-\theorempostskipamount=\skip66
-\theoremframepreskipamount=\skip67
-\theoremframepostskipamount=\skip68
-\theoreminframepreskipamount=\skip69
-\theoreminframepostskipamount=\skip70
-\theorem@preskip=\toks34
-\theorem@postskip=\toks35
-\theorem@framepreskip=\toks36
-\theorem@framepostskip=\toks37
-\theorem@inframepreskip=\toks38
-\theorem@inframepostskip=\toks39
-\theoremindent=\dimen263
-\theorem@indent=\dimen264
-\theoremrightindent=\dimen265
-\theorem@rightindent=\dimen266
-\theoremheaderfont=\toks40
-\theoremseparator=\toks41
-\theoremprework=\toks42
-\theorempostwork=\toks43
-\theoremsymbol=\toks44
-\qedsymbol=\toks45
-\theoremkeyword=\toks46
-\qedsymbol=\toks47
-\thm@topsep=\skip71
-\thm@topsepadd=\skip72
+) (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
+\dth@everypar=\toks35
 )
 \c@definition=\count316
 \c@proposition=\count317
+\c@lemma=\count318
+\c@theorem=\count319
+\c@remark=\count320
  (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count318
+\lst@mode=\count321
 \lst@gtempboxa=\box102
-\lst@token=\toks48
-\lst@length=\count319
-\lst@currlwidth=\dimen267
-\lst@column=\count320
-\lst@pos=\count321
-\lst@lostspace=\dimen268
-\lst@width=\dimen269
-\lst@newlines=\count322
-\lst@lineno=\count323
-\lst@maxwidth=\dimen270
+\lst@token=\toks36
+\lst@length=\count322
+\lst@currlwidth=\dimen263
+\lst@column=\count323
+\lst@pos=\count324
+\lst@lostspace=\dimen264
+\lst@width=\dimen265
+\lst@newlines=\count325
+\lst@lineno=\count326
+\lst@maxwidth=\dimen266
  (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count324
-\lst@skipnumbers=\count325
+\c@lstnumber=\count327
+\lst@skipnumbers=\count328
 \lst@framebox=\box103
 ) (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -521,26 +499,26 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (CompteRendu.aux)
 \openout1 = `CompteRendu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Info: Redefining \degres on input line 79.
-LaTeX Info: Redefining \up on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Info: Redefining \degres on input line 82.
+LaTeX Info: Redefining \up on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -576,7 +554,7 @@ LaTeX Info: Redefining \up on input line 79.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 82.
 (CompteRendu.out) (CompteRendu.out)
 \@outlinefile=\write3
 \openout3 = `CompteRendu.out'.
@@ -587,28 +565,28 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen271
+\scratchcounter=\count329
+\scratchdimen=\dimen267
 \scratchbox=\box104
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen272
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks50
+\nofMPsegments=\count330
+\nofMParguments=\count331
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen268
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
+\everyMPtoPDFconversion=\toks38
 ) (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count332
-<logo_ponts.jpg, id=19, 920.43875pt x 1203.49625pt>
+\c@lstlisting=\count335
+<logo_ponts.jpg, id=71, 920.43875pt x 1203.49625pt>
 File: logo_ponts.jpg Graphic file (type jpg)
 <use logo_ponts.jpg>
-Package pdftex.def Info: logo_ponts.jpg  used on input line 100.
+Package pdftex.def Info: logo_ponts.jpg  used on input line 103.
 (pdftex.def)             Requested size: 184.08449pt x 240.69498pt.
  [1
 
@@ -624,15 +602,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `CompteRendu.toc'.
 
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 124.
-Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 136.
-
-Overfull \hbox (24.05518pt too wide) in paragraph at lines 136--141
-\T1/cmr/m/it/12 dé-fi-nie po-si-tive tel que $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; t[]; :::; t[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 T[]; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^X N\OT1/cmr/m/n/12 (([](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; :::; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ))[]\OML/cmm/m/it/12 ; K[]\OT1/cmr/m/n/12 )$
- []
-
-\tf@thm=\write5
-\openout5 = `CompteRendu.thm'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -645,23 +614,63 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.147 \end{document}
-                     [1] (CompteRendu.aux)
+l.132 
+       [1]
+Overfull \hbox (24.05518pt too wide) in paragraph at lines 139--144
+\T1/cmr/m/it/12 dé-fi-nie po-si-tive tel que $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; t[]; :::; t[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 T[]; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^X N\OT1/cmr/m/n/12 (([](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; :::; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ))[]\OML/cmm/m/it/12 ; K[]\OT1/cmr/m/n/12 )$
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Overfull \hbox (8.08858pt too wide) in paragraph at lines 257--258
+[]\T1/cmr/bx/n/12 Proposition 2. \T1/cmr/m/it/12 Soit $\OML/cmm/m/it/12 k$ \T1/cmr/m/it/12 un noyau dé-fini po-si-tif sur un en-semble $\OML/cmm/m/it/12 ^^_$ \T1/cmr/m/it/12 et dé-fi-nis-sons $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 := (\OML/cmm/m/it/12 x[]; :::; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[5] (CompteRendu.aux)
 Package rerunfilecheck Info: File `CompteRendu.out' has not changed.
-(rerunfilecheck)             Checksum: 288A36CF2FBD64153E3ACC4C2424AB8D;694.
+(rerunfilecheck)             Checksum: F252BDA72B39F346B7D3B575CC7AE332;3156.
  ) 
 Here is how much of TeX's memory you used:
- 16509 strings out of 476331
- 274834 string characters out of 5787765
- 1861660 words of memory out of 5000000
- 36689 multiletter control sequences out of 15000+600000
+ 16327 strings out of 476331
+ 271505 string characters out of 5787765
+ 1865660 words of memory out of 5000000
+ 36482 multiletter control sequences out of 15000+600000
  524524 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,464b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CompteRendu.pdf (2 pages, 341527 bytes).
+ 75i,13n,77p,490b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CompteRendu.pdf (6 pages, 431467 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

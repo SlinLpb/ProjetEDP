@@ -69,9 +69,12 @@
 %Trucs utiles pour les maths
 \usepackage{amsfonts}
 \usepackage{amsmath}
-\usepackage{ntheorem}
+\usepackage{amsthm}
 \newtheorem{definition}{Définition}
 \newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemme}
+\newtheorem{theorem}{Théorème}
+\newtheorem{remark}{Remarque}
 
 \usepackage{listings}
 
@@ -143,5 +146,165 @@ Historiquement, les processus de régression gaussienne furent introduits par Kr
 \end{proposition}
 
 \subsection{Modélisation d'une trajectoire d'un processus gaussien}
+
+\section{Interpolation gaussienne}
+
+\subsection{Régression gaussienne}
+
+\begin{definition}
+    Soit $\chi$ un ensemble non vide et $f:\chi\to\mathbb{R}$ une fonction.
+    Soit $n\in\mathbb{N}$ et $(x_i,y_i)_{i=1}^n\subset\chi\times\mathbb{R}$ tel que
+    $$ ~~ y_i=f(x_i)+\xi_i,~~~~~~~~i=1,...n$$ 
+    Les $(x_i,y_i)$ sont les points que l'on cherche à interpoler
+    et les $\xi_i$ sont des variables aléatoires qui représentent le "bruit", 
+    ou alors l'incertitude/variabilité des réponses que l'on peut avoir pour une même entrée.
+
+    Le problème de la régression est d'estimer la fonction f en se basant $(*)$. 
+    La fonction $f$ est alors appelée fonction de régression.
+
+    La régression gaussienne est d'imposer $f\sim\mathcal{GP}(m,k)$ et $\xi_i\sim\mathcal{N}(0,\sigma^2),~~~~i=1,...,n$. 
+    Ici, $m$ et $k$ doivent être choisis de manière à représenter des connaissances 
+    ou des hypothèses sur la fonction de régression.
+\end{definition}
+
+\begin{lemma}
+    Soit $a\in\mathbb{R}^d$ et $b\in\mathbb{R}$ des vecteurs gaussiens tels que 
+$$
+\begin{bmatrix} a \\ b \end{bmatrix} \sim \mathcal{N} \begin{pmatrix} \begin{bmatrix} \mu_a \\ \mu_b \end{bmatrix} \ \begin{bmatrix} A \ C \\ C^T \ B \end{bmatrix} \end{pmatrix}
+$$
+où $\mu_a$ et $\mu_b$ sont les vecteurs moyennes, $A$ et $B$ les matrices de covariances et $C\in\mathbb{R}^{n\times m}$.
+Alors la distribution conditionnelle de b sachant a est donnée par
+$$ b|a \sim \mathcal{N}(\mu_b+C^TA^{-1}(a-\mu_a),B-C^TA^{-1}C) $$
+\end{lemma}
+
+\begin{theorem}
+    Supposons $f$ solution du problème de régression gaussienne. Alors
+$$ f|Y\sim\mathcal{GP}(\bar{m},\bar{k}),
+$$
+où $\bar{m}:\chi\to\mathbb{R}$ et $\bar{k}:\chi\times\chi\to\mathbb{R}$ sont données par
+$$ \bar{m}(x)=m(x)+k_{xX}(k_{XX}+\sigma^2I_n)^{-1}(Y-m_X),~~~~~~~~~~x\in\chi $$
+$$ \bar{k}(x,x')=k(x,x')-k_{xX}(k_{XX}+\sigma^2I_n)^{-1}k_{Xx'}, ~~~~~ x, x'\in\chi$$
+où $k_{Xx}=k_{xX}^{T}=(k(x_1,x),...,k(x_n,x))^{T}$ et $m_X^{T}=(m(x_1),...m(x_n))^{T}$
+\end{theorem}
+
+\subsection{Espace à noyau reproduisant}
+
+Une façon de retrouver l'expression de la moyenne obtenu dans le Théorème 1 est
+de d'utiliser un espace à noyau reproduisant.
+
+\begin{definition}
+    Soit $\chi$ un ensemble non vide. Un noyau défini positif est une fonction symétrique $k : \chi \times \chi \to \mathbb{R}$ tel que $\forall n \in \mathbb{N}, (c_1,...,c_n) \in \mathbb{R}^n et (x_1,...,x_n) \in \chi^n$
+$$
+\sum_{i=1}^n \sum_{j=1}^n c_i c_j k(x_i,x_j) \ge 0.
+$$
+\end{definition}
+
+\begin{remark}
+    En reprenant les notations de I.a., on observe que le noyau de covariance c peut 
+    être vu comme un noyau défini positif sur $T \times T$. 
+\end{remark}
+
+\begin{definition}
+    Soit $\chi$ un ensemble non vide. Un espace de Hilbert $(\mathcal{H}_k,\langle .,.\rangle_{\mathcal{H}_k})$ de fonctions de $\chi$ est appelé un espace à noyau reproduisant de noyau reproduisant $k$ si les conditions suivantes sont satisfaites :
+$$
+(i) \forall x\in\chi, k(.,x)\in\mathcal{H}_k;
+$$
+$$
+(ii) \forall x\in\chi,\forall f\in\mathcal{H}_k,f(x)=\langle f,k(.,x)\rangle_{\mathcal{H}_k}
+$$
+\end{definition}
+
+\begin{remark}
+    $(ii)$ équivaut à dire que l'évaluation est continue sur l'espace des fonctions de $\mathcal{H}_k$
+\end{remark}
+
+\subsection{Méthode des moindres carrés}
+
+Nous souhaitons interpoler l'ensemble de points ${(x_1,y_1),...,(x_n,y_n)}$.
+Nous nous intéressons d'abord à résoudre le problème 
+$$
+\hat{f} = argmin(\frac{1}{n}\sum_{i=1}^nL(x_i,y_i,f(x_i))+\lambda\lVert f\rVert_{\mathcal{H}_k}^2 | f\in\mathcal{H}_k)
+$$
+où $L:\chi\times\mathbb{R}\times\mathbb{R}\to\mathbb{R}^{+}$ est une fonction de perte et $\lambda >0$ une constante de régularisation. L joue sur la différence entre les points $y_i$ et les $f(x_i)$. Nous allons ici nous intéresser à l'estimateur des moindres carrés $L(x,y,y')=(y-y')^2$ donc au problème suivant :
+$$
+\hat{f} = argmin(\frac{1}{n}\sum_{i=1}^n(f(x_i)-y_i)^2+\lambda\lVert f\rVert_{\mathcal{H}_k}^2 | f\in\mathcal{H}_k)
+$$
+
+\begin{theorem}
+    La solution est unique, et est donnée par
+$$
+\hat{f}(x)=k_{xX}(k_{XX}+n\lambda I_{n})^{-1}Y
+$$
+\end{theorem}
+
+\begin{proof}
+Notons $h:f\in\mathcal{H}_k\to\mathbb{R}$ la fonction $h(f)=\frac{1}{n}\sum_{i=1}^n(f(x_i)-y_i)^2+\lambda\lVert f\rVert_{\mathcal{H}_k}^2$, qu'on cherche donc à minimiser.
+
+Posons $\mathcal{H}_0=vect(\{k(.,x_i)\}_{i=1,...,n})$. $\mathcal{H}_0$ est un sous espace vectoriel de $\mathcal{H}_k$. Ainsi, on peut considérer $\mathcal{H}_0^\perp$ supplémentaire orthogonal de $\mathcal{H}_0$. 
+
+Soit $f^*$ solution optimale du problème. Alors il existe $f^*_0\in\mathcal{H}_0$ et $g^*\in\mathcal{H}_0^\perp$ tel que $f^*=f^*_0+g^*$
+
+Ainsi, $\lVert f^*\rVert_{\mathcal{H}_k}^2=\lVert f^*_0\rVert_{\mathcal{H}_k}^2+\lVert g^*\rVert_{\mathcal{H}_k}^2$ (théorême de pythagore)
+
+et $f^*(x_i)=\langle f,k(.,x_i)\rangle_{\mathcal{H}_k}=\langle f^*_0,k(.,x_i)\rangle_{\mathcal{H}_k}+\langle g^*,k(.,x_i)\rangle_{\mathcal{H}_k}=\langle f^*_0,k(.,x_i)\rangle_{\mathcal{H}_k}$ car $g^*\mathcal{H}_0^\perp$
+
+donc finalement $h(f^*)=h(f^*_0)+\lVert g^*\rVert_{\mathcal{H}_k}^2$ où $\lVert g^*\rVert_{\mathcal{H}_k}^2 >0$ si $f^*$ n'appartient pas à $\mathcal{H}_0$, ce qui montre que $f^*_0$ est une meilleure solution au problème, ce qui n'est pas car f est par hypothèse la solution optimale de ce dernier. Donc la solution du problème si elle existe est un élément de $\mathcal{H}_0$.
+
+Il suffit alors de résoudre le problème sur $\mathcal{H}_0$ (espace de dimension finie), ce qui aboutit à la formule annoncée.
+\end{proof}
+
+\begin{proposition}
+    Soit $k$ un noyau défini positif sur un ensemble $\chi$ et définissons $X:=(x_1,...,x_n)\in\chi^n$ et $Y:=(y_1,...,y_n)\in\mathbb{R}^n$. Alors $\bar{m}=\hat{f}$ si $\sigma^2=n\lambda$ où
+
+$\bar{m}$ est la fonction moyenne de la regression gaussienne sur $(X,Y)$, le prayeur du processus gaussien $\mathcal{f}\sim\mathcal{GP}(0,k)$ en considérant le bruit $\xi_1,...,\xi_n\sim\mathcal{N}(0,\sigma^2)$
+
+$\hat{f}$ est la solution de la régression des moindres carrées de $(X,Y)$ basé sur l'espace à noyau reproduisant associé à $k$.
+\end{proposition}
+
+\subsection{Interpolation}
+
+\section{Equations aux dérivées partielles linéaires}
+
+\subsection{Définition}
+
+\begin{definition}
+    Soit $\mathcal{L}:\mathbb{U}\to\mathbb{U}$ un opérateur linéaire.
+    On appelle équation linéaire sur $\mathbb{U}$ une équation de la forme
+    $\mathcal{L}[u] = f$
+\end{definition}
+
+\begin{proposition}
+    Les equations aux dérivéees partielles sont des équations linéaires sur
+    $\mathbb{U}$ où ici $\mathbb{U}$ est un espace de fonctions suffisamment
+    régulière pour que l'opérateur différentiel linéaire considéré y soit 
+    défini.
+\end{proposition}
+
+\subsection{Conditionner sur un opérateur linéaire}
+
+\begin{theorem}
+    Soit $u\sim\mathcal{GP}(m,k)$, $\mathcal{L}:\mathbb{U}\to\mathbb{R}$ un opérateur linéaire et une variable gaussienne indépendante $\epsilon \sim \mathcal{N}(\mu,\Sigma)$. Alors 
+$$
+u | (\mathcal{L}[u]+\epsilon=y)\sim\mathcal{GP}(m^{u|y},k^{u|y})
+$$
+où la moyenne et la covariance sont données par 
+$$
+m^{u|y}(x)=m(x)+\mathcal{L}[k(.,x)]^{T}(\mathcal{L}k\mathcal{L}+\Sigma)^{-1}(y-(\mathcal{L}[m]+\mu))
+$$
+$$
+k^{u|y}=k(x_1,x_2)+\mathcal{L}[k(.,x_1)]^{T}(\mathcal{L}k\mathcal{L}+\Sigma)^{-1}\mathcal{L}[k(.,x_2)]
+$$
+où $(\mathcal{L}k\mathcal{L})_{ij}:=\mathcal{L}[x\mapsto\mathcal{L}[k(x,.)_j]_i$
+\end{theorem}
+
+\subsection{Convergence}
+
+\subsection{Equation de Poisson}
+
+\subsection{Equation d'advection diffusion}
+
+\section{Equation aux dérivées partielles non linéaires}
+
+\subsection{Equation de Burger}
 
 \end{document}
