@@ -307,6 +307,28 @@ Il est judicieux de prouver que notre solution approchée de l'EDP converge vers
 
 \section{Equation aux dérivées partielles non linéaires}
 
+Soit d $\geq$ 1 et $\Omega$ un ouvert borné de $\mathbf{R^{d}}$ 
+
+Considérons l'équation non linéaire vérifiée par $u^{*}$:
+\begin{equation}
+\label{eq:system}
+\left\{ 
+\begin{aligned}
+     -\Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+ u^{*}(x) = g(x), \qquad x \in \partial \Omega 
+\end{aligned}
+\right.
+\end{equation}
+
+
+avec   $ f : \Omega \xrightarrow{} \mathbf{R}$ ,
+   $ g :  \partial \Omega \xrightarrow{} \mathbf{R}$   et $ \tau : \mathbf{R} \xrightarrow{} \mathbf{R}$ \quad  sont des fonctions continues données. On suppose que  $ f, g $ et  $ \tau $ sont choisis de manière à ce que l'EDP ait une solution unique. \\
+   
+
+On considère un noyau symétrique, défini positif \quad $K :\Omega \times \Omega \xrightarrow{} \Omega $ \quad avec $ \Omega := \Omega \cup \partial \Omega  . $  Soit $ U $ le RKHS  associé à K et $\|.\|$, la norme associée au RKHS. 
+Soit $ 1 \leq M_\Omega \leq M \leq \infty $ et fixons M points dans $\Omega$ tel que  $x_1, ..., x_{M_\Omega} \in \Omega$ et  $x_{M_\Omega + 1}, ...,x_M \in \partial\Omega $ La méthode suivante approche la solution $u^{*}$ de \eqref{eq:system}  avec \u^{\textdagger} un minimiseur du problème d'optimisation suivant: 
+
+
 \subsection{Equation de Fischer}
 
 \end{document}
