@@ -147,6 +147,46 @@ Historiquement, les processus de régression gaussienne furent introduits par Kr
 
 \subsection{Modélisation d'une trajectoire d'un processus gaussien}
 
+Voici un algorithme qui produit des tirages de trajectoires indépendantes d'un processus gaussien
+
+
+
+\begin{minted}{julia}
+import Plots 
+# Bibliothèque pour afficher les courbes
+using LinearAlgebra 
+#Faire de l'algèbre linéaire.
+
+function GPsample(k,m,X,n)
+    Plots.plot(title="GPsample")
+    m_X=m.(X')
+    k_XX=k.(X,X')
+    R=real(sqrt(k_XX))
+    for i=1:n
+        u=randn(size(X))
+        f_X=m_X'+R*u
+        Plots.plot!(X,f_X)
+    end
+    K=zeros(length(X))
+    for i=1:length(X)
+        K[i]=k_XX[i,i]
+    end
+    Plots.plot!(X,m_X',label="Moyenne",linewidth=3)
+end
+
+T=-π:0.1:π
+gamma=1
+sigma=0
+m(x)=0 
+#Définie une fonction.
+m1(x)=cos(x)
+c(x,t)=exp(-(x-t)^2/gamma^2)
+c2(x,y)=min(x,y)
+GPsample(c,m1,T,10)
+
+\end{minted}
+
+
 \section{Interpolation gaussienne}
 
 \subsection{Régression gaussienne}
