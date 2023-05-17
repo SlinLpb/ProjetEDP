@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  15 MAY 2023 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  16 MAY 2023 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,7 +555,6 @@ LaTeX Info: Redefining \up on input line 82.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 82.
-(CompteRendu.out) (CompteRendu.out)
 \@outlinefile=\write3
 \openout3 = `CompteRendu.out'.
 
@@ -563,7 +562,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
 \scratchdimen=\dimen267
@@ -583,25 +582,29 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count335
-<logo_ponts.jpg, id=71, 920.43875pt x 1203.49625pt>
+<logo_ponts.jpg, id=3, 920.43875pt x 1203.49625pt>
 File: logo_ponts.jpg Graphic file (type jpg)
 <use logo_ponts.jpg>
 Package pdftex.def Info: logo_ponts.jpg  used on input line 103.
 (pdftex.def)             Requested size: 184.08449pt x 240.69498pt.
  [1
 
-{C:/Users/nilsb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_ponts.jpg>] (CompteRendu.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
- (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
- (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+{C:/Users/nilsb/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_ponts.jpg>]
+No file CompteRendu.toc.
 \tf@toc=\write4
 \openout4 = `CompteRendu.toc'.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127.
+(C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127.
+ (C:\Users\nilsb\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (24.05518pt too wide) in paragraph at lines 139--144
+\T1/cmr/m/it/12 dé-fi-nie po-si-tive tel que $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; t[]; :::; t[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 T[]; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^X N\OT1/cmr/m/n/12 (([](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; :::; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ))[]\OML/cmm/m/it/12 ; K[]\OT1/cmr/m/n/12 )$
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -614,12 +617,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.132 
+l.164 
        [1]
-Overfull \hbox (24.05518pt too wide) in paragraph at lines 139--144
-\T1/cmr/m/it/12 dé-fi-nie po-si-tive tel que $\OMS/cmsy/m/n/12 8\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12 2 \U/msb/m/n/12 N\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 8\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]; t[]; :::; t[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 T[]; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]; :::; X[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^X N\OT1/cmr/m/n/12 (([](\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; :::; []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t[]\OT1/cmr/m/n/12 ))[]\OML/cmm/m/it/12 ; K[]\OT1/cmr/m/n/12 )$
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -628,14 +627,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
 Overfull \hbox (8.08858pt too wide) in paragraph at lines 257--258
 []\T1/cmr/bx/n/12 Proposition 2. \T1/cmr/m/it/12 Soit $\OML/cmm/m/it/12 k$ \T1/cmr/m/it/12 un noyau dé-fini po-si-tif sur un en-semble $\OML/cmm/m/it/12 ^^_$ \T1/cmr/m/it/12 et dé-fi-nis-sons $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 := (\OML/cmm/m/it/12 x[]; :::; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
  []
@@ -647,7 +638,160 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[4]
+[3]
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:316: Missing delimiter (. inserted).
+<to be read again> 
+                   \def 
+l.316 \begin{aligned}
+                     
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Missing delimiter (. inserted).
+<to be read again> 
+                   \gdef 
+l.321 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
+
+ []
+
+
+LaTeX Warning: Reference `eq:system' on page 4 undefined on input line 329.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing $ inserted.
+<inserted text> 
+                $
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
+<to be read again> 
+                   \global 
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
+<to be read again> 
+                   ^
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
+<to be read again> 
+                   \egroup 
+l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
+                                                  {\textdagger} un minimiseu...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+
+LaTeX Warning: Command \textdagger invalid in math mode on input line 329.
+
+
+LaTeX Warning: Command \textdagger invalid in math mode on input line 329.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 329.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:330: Missing $ inserted.
+<inserted text> 
+                $
+l.330 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:330: Missing } inserted.
+<inserted text> 
+                }
+l.330 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no „ in font cmr12!
+Missing character: There is no è in font cmr12!
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.332 \subsection
+                 {Equation de Fischer}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.332 \subsection
+                 {Equation de Fischer}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: Missing } inserted.
+<inserted text> 
+                }
+l.332 \subsection{Equation de Fischer}
+                                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.61858pt, for example:
@@ -655,22 +799,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[5] (CompteRendu.aux)
-Package rerunfilecheck Info: File `CompteRendu.out' has not changed.
-(rerunfilecheck)             Checksum: 1E3487987325C048E7294D2C35EC2DF3;3161.
- ) 
+[4] (CompteRendu.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `CompteRendu.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CompteRendu.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FE680934B580FB18E51DB33F7E1D817B;3002.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 329 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 16327 strings out of 476331
- 271505 string characters out of 5787765
- 1865660 words of memory out of 5000000
- 36482 multiletter control sequences out of 15000+600000
- 524524 words of font info for 60 fonts, out of 8000000 for 9000
+ 16313 strings out of 476331
+ 271066 string characters out of 5787765
+ 1866660 words of memory out of 5000000
+ 36471 multiletter control sequences out of 15000+600000
+ 525789 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,77p,490b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CompteRendu.pdf (6 pages, 431478 bytes).
+ 75i,13n,77p,490b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on CompteRendu.pdf (5 pages, 439332 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
