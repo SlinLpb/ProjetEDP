@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  16 MAY 2023 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  17 MAY 2023 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -639,29 +639,185 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
 [3]
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:316: Missing delimiter (. inserted).
-<to be read again> 
-                   \def 
-l.316 \begin{aligned}
-                     
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:315: Missing $ inserted.
+<inserted text> 
+                $
+l.315 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Missing delimiter (. inserted).
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:315: Display math should end with $$.
 <to be read again> 
-                   \gdef 
+                   \tex_par:D 
+l.315 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 $
+       \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+<inserted text> 
+                $
+l.317 $
+       \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing } inserted.
+<inserted text> 
+                }
+l.317 $
+       \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+<inserted text> 
+                $
+l.317 $\Delta
+              u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Incomplete \ifodd; all text was ignored after line 317.
+<inserted text> 
+                \fi 
+l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+                                                  
+A forbidden control sequence occurred in skipped text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+<inserted text> 
+                $
+l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Extra \fi.
+\math@cr@@@ ...ef \next@ {&\kern -\alignsep@ }\fi 
+                                                  \next@ \cr 
+l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Undefined control sequence.
+\math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
+                                                  \cr 
+l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing { inserted.
+<inserted text> 
+                {
+l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+                                                  
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:318: Missing } inserted.
+<inserted text> 
+                }
+l.318 ...(x) = g(x), \qquad x \in \partial \Omega$
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing { inserted.
+<inserted text> 
+                {
+l.319 \end{aligned}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing $ inserted.
+<inserted text> 
+                $
+l.319 \end{aligned}
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing $ inserted.
+<inserted text> 
+                $
+l.319 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.321 \end{equation}
                     
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.321 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Missing $ inserted.
+<inserted text> 
+                $
+l.321 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.321 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 324--326
@@ -828,7 +984,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,13n,77p,490b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CompteRendu.pdf (5 pages, 439332 bytes).
+Output written on CompteRendu.pdf (5 pages, 439342 bytes).
 PDF statistics:
  490 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
