@@ -147,6 +147,46 @@ Historiquement, les processus de régression gaussienne furent introduits par Kr
 
 \subsection{Modélisation d'une trajectoire d'un processus gaussien}
 
+Voici un algorithme qui produit des tirages de trajectoires indépendantes d'un processus gaussien
+
+
+
+\begin{minted}{julia}
+import Plots 
+# Bibliothèque pour afficher les courbes
+using LinearAlgebra 
+#Faire de l'algèbre linéaire.
+
+function GPsample(k,m,X,n)
+    Plots.plot(title="GPsample")
+    m_X=m.(X')
+    k_XX=k.(X,X')
+    R=real(sqrt(k_XX))
+    for i=1:n
+        u=randn(size(X))
+        f_X=m_X'+R*u
+        Plots.plot!(X,f_X)
+    end
+    K=zeros(length(X))
+    for i=1:length(X)
+        K[i]=k_XX[i,i]
+    end
+    Plots.plot!(X,m_X',label="Moyenne",linewidth=3)
+end
+
+T=-π:0.1:π
+gamma=1
+sigma=0
+m(x)=0 
+#Définie une fonction.
+m1(x)=cos(x)
+c(x,t)=exp(-(x-t)^2/gamma^2)
+c2(x,y)=min(x,y)
+GPsample(c,m1,T,10)
+
+\end{minted}
+
+
 \section{Interpolation gaussienne}
 
 \subsection{Régression gaussienne}
@@ -263,6 +303,73 @@ $\hat{f}$ est la solution de la régression des moindres carrées de $(X,Y)$ bas
 
 \subsection{Interpolation}
 
+\begin{minted}{julia}
+    function interpolation_gaussienne_discret(T,X,Y,k,m,n)
+        M=zeros(length(T))
+        MX=m.(X')
+        KXX=k.(X,X')
+        A=zeros(length(T),length(T))
+        for i=1:length(T)
+            J=zeros(length(X))
+            for l=1:length(X)
+                J[l]=(k(T[i],X[l]))
+            end
+            M[i]=m(T[i])+( J'*(inv(KXX+sigma^2*Matrix(I,length(X),length(X)))*(Y'-MX) ))[1]
+            for j=1:length(T)
+                K=zeros(length(X))
+                for l=1:length(X)
+                    K[l]=k(X[l],T[j])
+                end
+                A[i,j]=k(T[i],T[j])-
+                ( J'*(inv(KXX+sigma^2*Matrix(I,length(X),length(X)))*K))[1]
+            end
+        end
+        B=zeros(length(T))
+        for i=1:length(T)
+            B[i]=A[i,i]
+        end
+        sqrtA=real(sqrt(A))
+        Plots.plot(title="Régression gaussienne")
+        for i=1:n
+            LN=randn(size(T))
+            Y=M+sqrtA*LN
+            Plots.plot!(T,Y)
+        end
+        Plots.plot!(T,M,ribbon=4*B,label="Moyenne",linewidth=3)
+    end
+         
+    
+    function interpolation_gaussienne(T,X,Y,k,m,n)
+        k_XX=k.(X,X')
+        m_X=m.(X')
+        M(x)=m(x)+( k.(x,X')'*inv(k_XX+sigma^2*Matrix(I,length(X),length(X)))*
+        (Y'-m_X))[1] # Moyenne de f conditionné sur Y
+        K(x,y)=k(x,y)-( k.(x,X')'*(inv(k_XX+sigma^2*Matrix(I,length(X),length(X)))*
+        k.(X,y)'))[1] # Covariance de f conditionné sur Y
+        Plots.plot(title="Régression gaussienne")
+        M_X=M.(T')
+        K_XX=K.(T,T')
+        R=real(sqrt(K_XX))
+        C=zeros(length(T))
+        for i=1:length(T)
+            C[i]=K_XX[i,i]
+        end
+        for i=1:n
+            u=randn(size(T))
+            f_X=M_X'+R*u
+            Plots.plot!(T,f_X)
+        end
+        Plots.plot!(T,M_X',ribbon=4*C,label="Moyenne",linewidth=3)
+    end
+    
+    
+    T2=-π:0.01:π
+    X2=[-2.5 -1 0.1 0.7 0.9 1]
+    Y2=[1 0 2 0.3 0.5 -1]
+    
+    interpolation_gaussienne(T2,X2,Y2,c,m,10)
+    \end{minted}
+
 \section{Equations aux dérivées partielles linéaires}
 
 \subsection{Définition}
@@ -326,8 +433,21 @@ avec   $ f : \Omega \xrightarrow{} \mathbf{R}$ ,
    
 
 On considère un noyau symétrique, défini positif \quad $K :\Omega \times \Omega \xrightarrow{} \Omega $ \quad avec $ \Omega := \Omega \cup \partial \Omega  . $  Soit $ U $ le RKHS  associé à K et $\|.\|$, la norme associée au RKHS. 
-Soit $ 1 \leq M_\Omega \leq M \leq \infty $ et fixons M points dans $\Omega$ tel que  $x_1, ..., x_{M_\Omega} \in \Omega$ et  $x_{M_\Omega + 1}, ...,x_M \in \partial\Omega $ La méthode suivante approche la solution $u^{*}$ de \eqref{eq:system}  avec \u^{\textdagger} un minimiseur du problème d'optimisation suivant: 
+Soit $ 1 \leq M_\Omega \leq M \leq \infty $ et fixons M points dans $\Omega$ tel que  $x_1, ..., x_{M_\Omega} \in \Omega$ et  $x_{M_\Omega + 1}, ...,x_M \in \partial\Omega $ La méthode suivante approche la solution $u^{*}$ de \eqref{eq:system}  avec $u^{\dagger}$ un minimiseur du problème d'optimisation suivant: 
 
+\begin{equation}
+    \label{eq:system2}
+    \left\{ 
+    \begin{aligned}
+      minimize \quad
+         -\Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
+     u^{*}(x) = g(x), \qquad x \in \partial \Omega 
+    \end{aligned}
+    \right.
+    \end{equation}
+
+    
+    Ici, on suppose que K est choisi de manière à avoir \quad $\mathcal{U} \subset C^{2}(\Omega) \bigcap C(\Omega)$, ce qui assure que les contraintes locales introduites en \eqref{eq:system2} sont bien définies.
 
 \subsection{Equation de Fischer}
 
