@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  17 MAY 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.24)  18 MAY 2023 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,6 +607,124 @@ Overfull \hbox (24.05518pt too wide) in paragraph at lines 139--144
  []
 
 
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:154: LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{minted}
+                    {julia}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:156: You can't use `macro parameter character #' in horizontal mode.
+l.156 #
+        Bibliothèque pour afficher les courbes
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:158: You can't use `macro parameter character #' in horizontal mode.
+l.158 #
+       Faire de l'algèbre linéaire.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:162: Missing $ inserted.
+<inserted text> 
+                $
+l.162     m_
+            X=m.(X')
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:176: Missing $ inserted.
+<inserted text> 
+                $
+l.176 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (7.78386pt too wide) in paragraph at lines 160--176
+[]\T1/cmr/m/n/12 function GP-sample(k,m,X,n) Plots.plot(title="GPsample") m$[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 k[]X \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (81.2436pt too wide) in paragraph at lines 160--176
+\OML/cmm/m/it/12 zeros\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 fori \OT1/cmr/m/n/12 = 1 : \OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 K\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 k[]X\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i; i\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 endPlots:plot\OT1/cmr/m/n/12 !(\OML/cmm/m/it/12 X; m[]; label \OT1/cmr/m/n/12 = "\OML/cmm/m/it/12 Moyenne\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; linewidth \OT1/cmr/m/n/12 =
+ []
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:177: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 T=-π
+           :0.1:π
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:177: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 T=-π:0.1:π
+                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:181: You can't use `macro parameter character #' in horizontal mode.
+l.181 #
+       Définie une fonction.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:183: Missing $ inserted.
+<inserted text> 
+                $
+l.183 c(x,t)=exp(-(x-t)^
+                        2/gamma^2)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:186: Missing $ inserted.
+<inserted text> 
+                $
+l.186 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:187: LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \end{minted}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.61858pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.61858pt}.
@@ -617,8 +735,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.164 
-       [1]
+l.197 ...$$ ~~ y_i=f(x_i)+\xi_i,~~~~~~~~i=1,...n$$
+                                                   [1]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -627,9 +745,202 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (8.08858pt too wide) in paragraph at lines 257--258
+Overfull \hbox (8.08858pt too wide) in paragraph at lines 297--298
 []\T1/cmr/bx/n/12 Proposition 2. \T1/cmr/m/it/12 Soit $\OML/cmm/m/it/12 k$ \T1/cmr/m/it/12 un noyau d�-fini po-si-tif sur un en-semble $\OML/cmm/m/it/12 ^^_$ \T1/cmr/m/it/12 et d�-fi-nis-sons $\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 := (\OML/cmm/m/it/12 x[]; :::; x[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 2
  []
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:306: LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 \begin{minted}
+                    {julia}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:307: Missing $ inserted.
+<inserted text> 
+                $
+l.307     function interpolation_
+                                 gaussienne_discret(T,X,Y,k,m,n)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 332.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:340: Missing $ inserted.
+<inserted text> 
+                $
+l.340 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmr12!
+
+Overfull \hbox (70.80957pt too wide) in paragraph at lines 306--340
+\OML/cmm/m/it/12 m:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 KXX \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 zeros\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 fori \OT1/cmr/m/n/12 = 1 : \OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 J \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 zeros\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 forl \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (107.54366pt too wide) in paragraph at lines 306--340
+\OT1/cmr/m/n/12 1 : \OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 J\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 ] = (\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; X\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 ]))\OML/cmm/m/it/12 endM\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 m\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ]) + (\OML/cmm/m/it/12 J[] \OMS/cmsy/m/n/12 ^^C \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 inv\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 KXX \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 sigma[] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 Matrix\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))) \OMS/cmsy/m/n/12 ^^C
+ []
+
+
+Overfull \hbox (26.56837pt too wide) in paragraph at lines 306--340
+\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; T\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 j\OT1/cmr/m/n/12 ])\OML/cmm/m/it/12 endA\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i; j\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 ; T\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 j\OT1/cmr/m/n/12 ]) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 J[] \OMS/cmsy/m/n/12 ^^C \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 inv\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 KXX \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 sigma[] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 Matrix\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))) \OMS/cmsy/m/n/12 ^^C
+ []
+
+
+Overfull \hbox (92.19371pt too wide) in paragraph at lines 306--340
+\OML/cmm/m/it/12 K\OT1/cmr/m/n/12 ))[1]\OML/cmm/m/it/12 endendB \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 zeros\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 fori \OT1/cmr/m/n/12 = 1 : \OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 B\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 A\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i; i\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 endsqrtA \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 real\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 sqrt\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 Plots:plot\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 title \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (160.97511pt too wide) in paragraph at lines 306--340
+\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Rgressiongaussienne\OT1/cmr/m/n/12 ")\OML/cmm/m/it/12 fori \OT1/cmr/m/n/12 = 1 : \OML/cmm/m/it/12 nLN \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 randn\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 size\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 Y \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 M \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 sqrtA \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 LNPlots:plot\OT1/cmr/m/n/12 !(\OML/cmm/m/it/12 T; Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 endPlots:plot\OT1/cmr/m/n/12 !(\OML/cmm/m/it/12 T; M; ribbon \OT1/cmr/m/n/12 =
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:342: Missing $ inserted.
+<inserted text> 
+                $
+l.342     function interpolation_
+                                 gaussienne(T,X,Y,k,m,n)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:346: You can't use `macro parameter character #' in math mode.
+l.346         (Y'-m_X))[1] #
+                             Moyenne de f conditionné sur Y
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 346.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:348: You can't use `macro parameter character #' in math mode.
+l.348         k.(X,y)'))[1] #
+                              Covariance de f conditionné sur Y
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 348.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 349.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:364: Missing $ inserted.
+<inserted text> 
+                $
+l.364 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+Missing character: There is no � in font cmr12!
+
+Overfull \hbox (13.24185pt too wide) in paragraph at lines 342--364
+[]\T1/cmr/m/n/12 function interpolation$[]\OML/cmm/m/it/12 aussienne\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T; X; Y; k; m; n\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 k[]X \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 M\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 m\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) +
+ []
+
+
+Overfull \hbox (122.18263pt too wide) in paragraph at lines 342--364
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; X[]\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 inv\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]X \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 sigma[] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 Matrix\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))) \OMS/cmsy/m/n/12 ^^C \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y[] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 m[]\OT1/cmr/m/n/12 ))[1]\OML/cmm/m/it/12 MoyennedefconditionnsurYK\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12 ) =
+ []
+
+
+Overfull \hbox (219.04655pt too wide) in paragraph at lines 342--364
+\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; y\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x; X[]\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^C \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 inv\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 k[]X \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 sigma[] \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 Matrix\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 I; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ))) \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 k:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; y\OT1/cmr/m/n/12 )[]))[1]\OML/cmm/m/it/12 CovariancedefconditionnsurYPlots:plot\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 title \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (70.28987pt too wide) in paragraph at lines 342--364
+\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Rgressiongaussienne\OT1/cmr/m/n/12 ")\OML/cmm/m/it/12 M[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 M:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 K[]X \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 K:\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T; T[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 real\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 sqrt\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 K[]X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 C \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 zeros\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 fori \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (178.01143pt too wide) in paragraph at lines 342--364
+\OT1/cmr/m/n/12 1 : \OML/cmm/m/it/12 length\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 C\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ] = \OML/cmm/m/it/12 K[]X\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i; i\OT1/cmr/m/n/12 ]\OML/cmm/m/it/12 endfori \OT1/cmr/m/n/12 = 1 : \OML/cmm/m/it/12 nu \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 randn\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 size\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 T\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 M[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 R \OMS/cmsy/m/n/12 ^^C \OML/cmm/m/it/12 uPlots:plot\OT1/cmr/m/n/12 !(\OML/cmm/m/it/12 T; f[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 endPlots:plot\OT1/cmr/m/n/12 !(\OML/cmm/m/it/12 T; M[]; ribbon \OT1/cmr/m/n/12 =
+ []
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:366: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366     T2=-π
+                :0.01:π
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:366: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366     T2=-π:0.01:π
+                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:370: Missing $ inserted.
+<inserted text> 
+                $
+l.370     interpolation_
+                        gaussienne(T2,X2,Y2,c,m,10)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:371: LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.371     \end{minted}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:371: Missing $ inserted.
+<inserted text> 
+                $
+l.371     \end{minted}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -638,47 +949,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[3]
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:315: Missing $ inserted.
+[4]
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:422: Missing $ inserted.
 <inserted text> 
                 $
-l.315 
+l.422 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:315: Display math should end with $$.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:422: Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.315 
+l.422 
       
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Package amsmath Error: \begin{aligned} allowed only in math mode.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Package amsmath Error: \begin{aligned} allowed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.317 $
+l.424 $
        \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Missing $ inserted.
 <inserted text> 
                 $
-l.317 $
+l.424 $
        \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing } inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Missing } inserted.
 <inserted text> 
                 }
-l.317 $
+l.424 $
        \Delta u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -686,42 +997,42 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Missing $ inserted.
 <inserted text> 
                 $
-l.317 $\Delta
+l.424 $\Delta
               u^{*}(x)+ \tau u^{*}(x)=f(x), \qquad \forall x \in \Omega \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Incomplete \ifodd; all text was ignored after line 317.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Incomplete \ifodd; all text was ignored after line 424.
 <inserted text> 
                 \fi 
-l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+l.424 ...}(x)=f(x), \qquad \forall x \in \Omega \\
                                                   
 A forbidden control sequence occurred in skipped text.
 This kind of error happens when you say `\if...' and forget
 the matching `\fi'. I've inserted a `\fi'; this might work.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Missing $ inserted.
 <inserted text> 
                 $
-l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+l.424 ...}(x)=f(x), \qquad \forall x \in \Omega \\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Extra \fi.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Extra \fi.
 \math@cr@@@ ...ef \next@ {&\kern -\alignsep@ }\fi 
                                                   \next@ \cr 
-l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+l.424 ...}(x)=f(x), \qquad \forall x \in \Omega \\
                                                   
 I'm ignoring this; it doesn't match any \if.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Undefined control sequence.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Undefined control sequence.
 \math@cr@@@ ...t@ {&\kern -\alignsep@ }\fi \next@ 
                                                   \cr 
-l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+l.424 ...}(x)=f(x), \qquad \forall x \in \Omega \\
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -729,19 +1040,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:317: Missing { inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:424: Missing { inserted.
 <inserted text> 
                 {
-l.317 ...}(x)=f(x), \qquad \forall x \in \Omega \\
+l.424 ...}(x)=f(x), \qquad \forall x \in \Omega \\
                                                   
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:318: Missing } inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:425: Missing } inserted.
 <inserted text> 
                 }
-l.318 ...(x) = g(x), \qquad x \in \partial \Omega$
+l.425 ...(x) = g(x), \qquad x \in \partial \Omega$
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -749,27 +1060,27 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing { inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:426: Missing { inserted.
 <inserted text> 
                 {
-l.319 \end{aligned}
+l.426 \end{aligned}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:426: Missing $ inserted.
 <inserted text> 
                 $
-l.319 \end{aligned}
+l.426 \end{aligned}
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:319: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:426: Missing $ inserted.
 <inserted text> 
                 $
-l.319 \end{aligned}
+l.426 \end{aligned}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -778,32 +1089,32 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: LaTeX Error: Bad math environment delimiter.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:428: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321 \end{equation}
+l.428 \end{equation}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: You can't use `\eqno' in vertical mode.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:428: You can't use `\eqno' in vertical mode.
 \endmathdisplay@a ...\df@tag \@empty \else \veqno 
                                                   \alt@tag \df@tag \fi \ifx ...
-l.321 \end{equation}
+l.428 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Missing $ inserted.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:428: Missing $ inserted.
 <inserted text> 
                 $
-l.321 \end{equation}
+l.428 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -811,142 +1122,24 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:321: Display math should end with $$.
+c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:428: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.321 \end{equation}
+l.428 \end{equation}
                     
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
 
  []
 
 
-LaTeX Warning: Reference `eq:system' on page 4 undefined on input line 329.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing $ inserted.
-<inserted text> 
-                $
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
-<to be read again> 
-                   \global 
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Improper \spacefactor.
-<recently read> \spacefactor 
-                             
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
-<to be read again> 
-                   ^
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:329: Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.329 ...on $u^{*}$ de \eqref{eq:system}  avec \u^
-                                                  {\textdagger} un minimiseu...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+LaTeX Warning: Reference `eq:system' on page 5 undefined on input line 436.
 
 
-LaTeX Warning: Command \textdagger invalid in math mode on input line 329.
-
-
-LaTeX Warning: Command \textdagger invalid in math mode on input line 329.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 329.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:330: Missing $ inserted.
-<inserted text> 
-                $
-l.330 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:330: Missing } inserted.
-<inserted text> 
-                }
-l.330 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmr12!
-Missing character: There is no � in font cmr12!
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 \subsection
-                 {Equation de Fischer}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 \subsection
-                 {Equation de Fischer}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-c:/Users/nilsb/OneDrive/Documents/ENPC/1A/Projet/Projet1A/ProjetEDP/CompteRendu.tex:332: Missing } inserted.
-<inserted text> 
-                }
-l.332 \subsection{Equation de Fischer}
-                                      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Reference `eq:system2' on page 5 undefined on input line 450.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -955,7 +1148,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[4] (CompteRendu.aux)
+[5] (CompteRendu.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -969,24 +1162,20 @@ Package rerunfilecheck Warning: File `CompteRendu.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `CompteRendu.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  FE680934B580FB18E51DB33F7E1D817B;3002.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 329 ({)
-### bottom level 
+(rerunfilecheck)             After:  1E3487987325C048E7294D2C35EC2DF3;3161.
+ ) 
 Here is how much of TeX's memory you used:
- 16313 strings out of 476331
- 271066 string characters out of 5787765
- 1866660 words of memory out of 5000000
- 36471 multiletter control sequences out of 15000+600000
- 525789 words of font info for 64 fonts, out of 8000000 for 9000
+ 16317 strings out of 476331
+ 271105 string characters out of 5787765
+ 1868660 words of memory out of 5000000
+ 36473 multiletter control sequences out of 15000+600000
+ 525452 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,77p,490b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,77p,490b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\nilsb\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/nilsb/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CompteRendu.pdf (5 pages, 439342 bytes).
+Output written on CompteRendu.pdf (6 pages, 453361 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
